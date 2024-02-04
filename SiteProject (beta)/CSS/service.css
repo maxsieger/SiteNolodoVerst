@@ -1,0 +1,13 @@
+.img_block{
+    width: 1110px;
+    height: 624px;
+    border-radius: 40px;
+    border: black 4px solid;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 40px;
+}
+
+.block_product {
+    width: 1110px;
+}
