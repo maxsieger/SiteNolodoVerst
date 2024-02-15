@@ -39,6 +39,11 @@ body {
     transition: color 0.4s ease-in-out;
 }
 
+.logo__span {
+    content: "Молодой верстальщик";
+
+}
+
 .header__link:hover {
     color: #a89b9b;
 }
@@ -208,7 +213,7 @@ body {
 
 .footer__inner {
     display: flex;
-    gap: 150px;
+    gap: 150px; 
 }
 
 .footer__title {
@@ -235,4 +240,36 @@ body {
     color: #7c7171;
 }
 
+@media (max-width: 530px) {
+    .header__link,
+    .logo__span {
+    font-size: 15px;
+}
+    .footer__inner {
+        display: block;
+    }
+    .footer__title {
+        font-size: 30px;
+    }
+    .footer__link {
+        font-size: 15px;
+    }
+    .header__list {
+        gap: 15px;
+    }
+    .header__logo {
+        gap: 5px;
+    } 
+    .footer__list {
+        padding-bottom: 10px;
+    }
+}
 
+@media (min-width: 530px) and (max-width: 100px) {
+    .footer__inner {
+        display: block;
+    }
+    .footer__list {
+        padding-bottom: 10px;
+    }
+}
