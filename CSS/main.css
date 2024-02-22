@@ -201,7 +201,7 @@ body {
     line-height: normal;
     width: 100%;
     max-width: 993px;
-    margin-left: 50px;
+    margin: 0 auto;
 }
 
 /* FOOTER */
@@ -273,6 +273,9 @@ body {
     }
     .footer__list {
         padding-bottom: 10px;
+    }
+    .process__desc {
+        margin: 0;
     }
 }
 
@@ -348,6 +351,7 @@ body {
     }
     .process__desc {
         font-size: 20px;
+        margin-top: 0;
     }
 }
 
