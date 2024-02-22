@@ -71,3 +71,34 @@ body {
 .container__contact {
     margin-top: 50px;
 }
+
+@media (max-width: 652px) and (min-width: 320px) {
+    .header {
+        padding: 20px 0;
+    }
+
+    .header__inner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header__list {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer__inner {
+        display: block;
+    }
+    .footer__title {
+        font-size: 30px;
+    }
+    .footer__link {
+        font-size: 15px;
+    }
+    .header__list {
+        gap: 15px;
+    }
+    .footer__list {
+        padding-bottom: 10px;
+    }
+}

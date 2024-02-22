@@ -92,10 +92,10 @@ body {
         font-size: 20px;
     }
     .products_subtitle {
-        font-size: 20px;
+        font-size: 30px;
     }
     .product_desc {
-        font-size: 15px;
+        font-size: 20px;
     }
 }
 
@@ -106,6 +106,16 @@ body {
     }
     .block_product {
         width: 556px;
+    }
+}
+
+@media (max-width: 320px) {
+    .img_block {
+        width: 308px;
+        height: 201px;
+    }
+    .block_product {
+        width: 309px;
     }
 }
 
