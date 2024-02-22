@@ -22,3 +22,13 @@
     slideIndex++;
     showSlides();
     });
+
+    // шапка
+
+    const menuButton = document.querySelector('.header__menu');
+    const headerNav = document.querySelector('.header__nav');
+    
+    menuButton.addEventListener('click', function() {
+        headerNav.classList.toggle('active');
+    });
+    
