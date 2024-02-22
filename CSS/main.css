@@ -59,13 +59,13 @@ body {
 
 .hero-section::after {
     margin-top: 119px;
-    content: '../img/i\ \(11\).webp';
+    content: '../IMG/phon.webp';
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('../img/i\ \(11\).webp');
+    background-image: url('../IMG/phon.webp');
     background-size: cover;
     background-position: center;
     opacity: 12%; /* Прозрачность фона */
