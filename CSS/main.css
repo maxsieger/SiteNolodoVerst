@@ -134,7 +134,7 @@ body {
 }
 
 .products__block {
-    content: url("../IMG/Site-Visitka.png");
+    background-image: url("../IMG/Site-Visitka.png");
     border-radius: 40px;
     border: 4px solid #000;
     width: 280px;
