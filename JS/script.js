@@ -23,12 +23,13 @@
     showSlides();
     });
 
-    // шапка
-
-    const menuButton = document.querySelector('.header__menu');
-    const headerNav = document.querySelector('.header__nav');
+    function openModal() {
+        var modal = document.getElementById("modal");
+        modal.style.display = "block";
+    }
     
-    menuButton.addEventListener('click', function() {
-        headerNav.classList.toggle('active');
-    });
+        function closeModal() {
+        var modal = document.getElementById("modal");
+        modal.style.display = "none";
+    }
     

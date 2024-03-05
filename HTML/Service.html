@@ -48,7 +48,7 @@
         <div class="img_block">
             <div class="carousel">
                 <div class="carousel-slide">
-                    <img src="../IMG/product.png" alt="изображение_товара" width="100%">
+                    <img src="../IMG/product.png" alt="изображение_товара" onclick="openModal()" width="100%">
                 </div>
                 <div class="carousel-slide">
                     <img src="image2.jpg" alt="Image 2">
@@ -57,6 +57,10 @@
                     <img src="image3.jpg" alt="Image 3">
                 </div>
             </div>
+        </div> 
+        <div id="modal" class="modal">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img src="../IMG/product.png" alt="Image" class="modal-content">
         </div>
 
         </div>
